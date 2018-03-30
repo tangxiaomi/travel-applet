@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/tabBar/map/map",
+    "pages/tabBar/landscape/landscape",
+    "pages/tabBar/personInfo/personInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#FEFEFE",
+    "selectedColor": "#4afb27",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/map/map",
+        "text": "地图",
+        "iconPath": "./assets/images/icon-map.png",
+        "selectedIconPath": "./assets/images/icon-map-active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/landscape/landscape",
+        "text": "景点",
+        "iconPath": "./assets/images/icon-landscape.png",
+        "selectedIconPath": "./assets/images/icon-landscape-active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/personInfo/personInfo",
+        "text": "我的",
+        "iconPath": "./assets/images/icon-people.png",
+        "selectedIconPath": "/assets/images/icon-people-active.png"
+      }
+    ]
+  }
+}

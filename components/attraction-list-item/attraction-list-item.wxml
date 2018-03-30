@@ -1,0 +1,8 @@
+<view class="component-style">
+  <view class="img-container" bindtap='clickImage'>
+    <image clas="img" src="{{coverImage}}"></image> 
+  </view>
+  <view class="text-container">
+    <p class="location">{{name}}</p> 
+  </view>
+</view>

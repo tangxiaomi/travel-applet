@@ -1,0 +1,16 @@
+/* component/attraction-list-Item/attraction-list-Item.wxss */
+.component-style{
+  margin: 0 10px;
+}
+.img-container{
+  border-bottom: 1px solid #ddd;
+}
+.img-container image{
+  margin-top: 10px;
+  width: 100%;
+}
+.text-container {
+ text-align: right;
+ color: black;
+ font-size: 15px;
+}

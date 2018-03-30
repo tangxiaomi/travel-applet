@@ -1,0 +1,12 @@
+<view class="attraction-des-container">
+  <view wx:if="{{pageMode!='list'}}">
+    <button bindtap="goBack">Back</button>
+    <attractionView coverImage="{{selectedAttration.coverImage}}" name="{{selectedAttration.name}}"></attractionView>
+  </view>
+
+  <view wx:if="{{pageMode=='list'}}" wx:for="{{attractions}}" wx:key="item.name" class="attraction-des">
+    <listItem coverImage="{{item.coverImage}}" dataSource="{{item}}" name="{{item.name}}" bind:clickItem="selectAttraction">
+    </listItem>
+  </view> 
+  
+</view>
