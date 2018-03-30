@@ -1,3 +1,10 @@
+<!-- <view class="section">
+  <input bindinput="bindInput" placeholder="搜索" focus="true" />
+</view>
+<view bindtouchstart="bindSearch" data-keywords="{{i.name}}" class="text_box" wx:for="{{tips}}" wx:for-item="i" wx:key="tips.index">
+  {{i.name}}
+</view>  -->
+
 <view class="map_container">
   <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map>
 </view>
@@ -5,3 +12,7 @@
   <text class="h1">{{textData.name}}</text>
   <text>{{textData.desc}}</text>
 </view>
+
+<!-- <view class="img_box">
+  <image src="{{src}}"></image>
+</view> -->

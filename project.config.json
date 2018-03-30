@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.7.2",
-	"appid": "wxb7f48c637737aa74",
-	"projectname": "gaodemap",
+	"appid": "wx8dfca55cb1e15640",
+	"projectname": "map",
 	"condition": {
 		"search": {
 			"current": -1,
