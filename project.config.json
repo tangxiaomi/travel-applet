@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.7.2",
 	"appid": "wx8dfca55cb1e15640",
-	"projectname": "map",
+	"projectname": "mapp",
 	"condition": {
 		"search": {
 			"current": -1,

@@ -14,6 +14,22 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+
+const formatDistance = num => {
+
+  if (num < 1000) {
+
+    return num.toFixed(0) + 'm';
+
+  } else if (num > 1000) {
+
+    return (num / 1000).toFixed(1) + 'km';
+
+  }
+
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  formatDistance: formatDistance
 }
